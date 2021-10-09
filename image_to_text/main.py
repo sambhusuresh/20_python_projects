@@ -7,3 +7,4 @@
      img =  image.open('imag.jpg')
      text = pytesseract.image_to_text
      print(text)
+convert()
