@@ -20,3 +20,4 @@ def detect():
 
     cap.release()
 detect()
+#has some error 
