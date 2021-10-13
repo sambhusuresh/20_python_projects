@@ -23,8 +23,6 @@ def wiki():
     speak("accroding to wikipedia")
     speak(result)
 
-def tc():
-    r = 
 
 time()
 wiki()
