@@ -1,6 +1,8 @@
 import pyttsx3
 import speech_recognition as sr
 import datetime
+import wikipedia
+
 
 engine = pyttsx3.init('espeak')
 voices = engine.getProperty('voices')
@@ -15,5 +17,15 @@ def time():
     print(Time)
     Time = ("the current time is" + Time)
     speak(Time)
+def wiki():
+    query = "blackhole"
+    result = wikipedia.summary(query, sentences=2)
+    speak("accroding to wikipedia")
+    speak(result)
+
+def tc():
+    r = 
 
 time()
+wiki()
+
